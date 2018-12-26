@@ -1,5 +1,3 @@
-
-import time
 summator = 0
 x = 2000000
 
@@ -14,7 +12,6 @@ def is_simple(number):
 for i in range(2, x):
     if is_simple(i)==True:
         summator += i
-
 
 
 print("Result is {0}".format(summator))
